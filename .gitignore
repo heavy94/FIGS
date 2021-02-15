@@ -1,0 +1,27 @@
+# PSoC Creator Project
+# Userfile
+*.cyprj.*
+*.cywrk.*
+
+# Miscellaneous files
+*.cycdx
+*.gsvd
+*.html
+*.pdf
+*.rpt
+*/*/ComponentUpdateLog.txt
+*/*/BUILD.log
+*/*/REBUILD.log
+*/*/GENERATE_API.log
+*.csv
+*.xlsx
+*.txt
+
+# Folders
+*codegentemp/
+*CortexM0/
+*Debug/
+*Generated_Source/
+*build/
+
+# PSoC Creator Project
