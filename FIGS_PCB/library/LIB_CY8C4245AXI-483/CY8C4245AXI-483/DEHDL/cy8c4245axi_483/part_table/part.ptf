@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CY8C4245AXI_483'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Cypress Semiconductor", "CY8C4245AXI-483" (!) = "", "QFP80P1200X1200X160-44N", "Quad Flat Packages", "727-CY8C4245AXI-483", "https://www.mouser.co.uk/ProductDetail/Cypress-Semiconductor/CY8C4245AXI-483?qs=LqwxS8kK3Avb3G2RQ97pnQ%3D%3D", "CY8C4245AXI-483", "https://www.arrow.com/en/products/cy8c4245axi-483/cypress-semiconductor", "PSoC 4 32-Bit Cortex M0 32K Flash TQFP44 Cypress Semiconductor CY8C4245AXI-483, System-On-Chip CMOS for Embedded, 1.71  5.5 V 44-Pin TQFP", "http://docs-emea.rs-online.com/webdocs/1335/0900766b813353a3.pdf", "1.6 mm"
+END_PART
+
+END.

@@ -2,6 +2,7 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP CY8C4245AXI-483
 D PSoC 4 32-Bit Cortex M0 32K Flash TQFP44 Cypress Semiconductor CY8C4245AXI-483, System-On-Chip CMOS for Embedded, 1.71  5.5 V 44-Pin TQFP
+K
 F http://docs-emea.rs-online.com/webdocs/1335/0900766b813353a3.pdf
 $ENDCMP
 #

@@ -1,0 +1,19 @@
+.CY8C4245AXI-483 :1 ;PSoC 4 32-Bit Cortex M0 32K Flash TQFP44 Cypress Semiconductor CY8C4245AXI-483, System-On-Chip CMOS for Embedded, 1.71  5.5 V 44-Pin TQFP
+QFP80P1200X1200X160-44N
+*STM IC
+*NGS
+*PLB 1="VSS_1" 2="(GPIO) P2[ 0]" 3="(GPIO)P2[1]" 4="(GPIO) P2[2]" 5="(GPIO) P2[3]" 6="(GPIO) P2[4]" 7="(GPIO) P2[5]" 8="(GPIO) P2[6]" 9="(GPIO) P2[7]" 10="VSS_2" 11="(GPIO) P3[0]" 12="(GPIO) P3[1]" 13="(GPIO) P3[2]" 14="(GPIO) P3[3]" 15="(GPIO) P3[4]" 16="(GPIO) P3[5]" 17="(GPIO) P3[6]" 18="(GPIO) P3[7]" 19="VDDD_1" 20="(GPIO) P4[0]" 21="(GPIO) P4[1]" 22="(GPIO) P4[2]" 23="(GPIO) P4[3]" 24="(GPIO) P0[0]" 25="(GPIO) P0[1]" 26="(GPIO) P0[2]" 27="(GPIO) P0[3]" &
+28="(GPIO) P0[4]" 29="(GPIO) P0[5]" 30="(GPIO) P0[6]" 31="(GPIO) P0[7]" 32="XRES" 33="VCCD" 34="VDDD_2" 35="VDDA" 36="VSSA" 37="(GPIO)P1[0]" 38="(GPIO)P1[1]" 39="(GPIO)P1[2]" 40="(GPIO)P1[3]" 41="(GPIO)P1[4]" 42="(GPIO)P1[5]" 43="(GPIO)P1[6]" 44="(GPIO)P1[7]"
+*MXP 44
+*DFN CY8C4245AXI-483
+~!Manufacturer_Name (Cypress Semiconductor)
+~!Manufacturer_Part_Number (CY8C4245AXI-483)
+~!Mouser Part Number (727-CY8C4245AXI-483)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Cypress-Semiconductor/CY8C4245AXI-483?qs=LqwxS8kK3Avb3G2RQ97pnQ%3D%3D)
+~!Arrow Part Number (CY8C4245AXI-483)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/cy8c4245axi-483/cypress-semiconductor)
+~!Link Datasheet (http://docs-emea.rs-online.com/webdocs/1335/0900766b813353a3.pdf)
+~!Height (1.6mm)
+~!3D_Model (CY8C4245AXI-483)
+CY8C4245AXI-483
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 21.1!U 22.1!U 33.1!U 32.1!U 31.1!U 30.1!U 29.1!U 28.1!U 27.1!U 26.1!U 25.1!U 24.1!U 23.1!U 44.1!U 43.1!U 42.1!U 41.1!U 40.1!U 39.1!U 38.1!U 37.1!U 36.1!U 35.1!U 34.1!U 
