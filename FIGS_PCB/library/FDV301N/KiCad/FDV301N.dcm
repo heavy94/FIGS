@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FDV301N
+D MOSFET N-Channel 25V 0.5A SOT23 Fairchild FDV301N N-channel MOSFET Transistor, 0.22 A, 25 V, 3-Pin SOT-23
+K
+F http://docs-emea.rs-online.com/webdocs/00ae/0900766b800ae8f8.pdf
+$ENDCMP
+#
+#End Doc Library
