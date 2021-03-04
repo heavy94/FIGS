@@ -1,0 +1,18 @@
+.FDV303N :1 ;FDV303N N-Channel MOSFET, 680 mA, 25 V, 3-Pin SOT-23 ON Semiconductor
+SOT96P237X111-3N
+*STM Q
+*NGS
+*PLB 1="G" 2="S" 3="D"
+*MXP 3
+*DFN FDV303N
+~!Manufacturer_Name (ON Semiconductor)
+~!Manufacturer_Part_Number (FDV303N)
+~!Mouser Part Number (512-FDV303N)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FDV303N/?qs=FOlmdCx%252BAA1IyXspysHTkA%3D%3D)
+~!Arrow Part Number (FDV303N)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/fdv303n/on-semiconductor)
+~!Link Datasheet (https://www.onsemi.com/pub/Collateral/FDV303N-D.PDF)
+~!Height (1.11mm)
+~!3D_Model (FDV303N)
+FDV303N
+1.1!U 2.1!U 3.1!U 

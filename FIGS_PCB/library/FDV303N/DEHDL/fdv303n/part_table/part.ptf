@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'FDV303N'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ON Semiconductor", "FDV303N" (!) = "", "SOT96P237X111-3N", "SOT23 (3-Pin)", "512-FDV303N", "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FDV303N/?qs=FOlmdCx%252BAA1IyXspysHTkA%3D%3D", "FDV303N", "https://www.arrow.com/en/products/fdv303n/on-semiconductor", "FDV303N N-Channel MOSFET, 680 mA, 25 V, 3-Pin SOT-23 ON Semiconductor", "https://www.onsemi.com/pub/Collateral/FDV303N-D.PDF", "1.11 mm"
+END_PART
+
+END.

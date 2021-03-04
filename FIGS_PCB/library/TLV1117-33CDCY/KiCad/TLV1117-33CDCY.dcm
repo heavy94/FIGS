@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLV1117-33CDCY
+D Single Output LDO, 800mA, Fixed and Adj., Internal Current limit, Thermal Overload Protection
+K
+F http://www.ti.com/lit/ds/symlink/tlv1117-33.pdf
+$ENDCMP
+#
+#End Doc Library
