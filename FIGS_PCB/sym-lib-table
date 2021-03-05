@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name CY8C4245AXI-483)(type Legacy)(uri E:/TEBSM1/II2302_Sensor_Based_Systems/figsGIT/FIGS/FIGS_PCB/library/LIB_CY8C4245AXI-483/CY8C4245AXI-483/KiCad/CY8C4245AXI-483.lib)(options "")(descr ""))
+  (lib (name CY8C4245AXI-483)(type Legacy)(uri ${KIPRJMOD}/library/LIB_CY8C4245AXI-483/CY8C4245AXI-483/KiCad/CY8C4245AXI-483.lib)(options "")(descr ""))
 )
