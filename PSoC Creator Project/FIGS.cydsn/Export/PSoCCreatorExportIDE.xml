@@ -25,7 +25,7 @@
       <Tool Name="postbuild" Command="" Options="" />
     </Toolchain>
   </Toolchains>
-  <Project Name="FIGS" Path="C:\Users\tom94\Documents\Master in Embedded Systems\Master Courses\II2302 - Sensor Based Systems\Project\FIGS\PSoC Creator Project\FIGS.cydsn" Version="5.80" Type="Normal">
+  <Project Name="FIGS" Path="C:\Users\ibrah\Desktop\PSoC Creator ProjectMain\FIGS.cydsn" Version="5.80" Type="Normal">
     <CMSIS_SVD_File>FIGS.svd</CMSIS_SVD_File>
     <Datasheet />
     <LinkerFiles>
@@ -34,14 +34,14 @@
       <LinkerFile Toolchain="ARM IAR Generic">.\Generated_Source\PSoC4\Cm0Iar.icf</LinkerFile>
     </LinkerFiles>
     <Folders>
-      <Folder BuildType="STRICT" Path="C:\Users\tom94\Documents\Master in Embedded Systems\Master Courses\II2302 - Sensor Based Systems\Project\FIGS\PSoC Creator Project\FIGS.cydsn">
-        <Files Root="C:\Users\tom94\Documents\Master in Embedded Systems\Master Courses\II2302 - Sensor Based Systems\Project\FIGS\PSoC Creator Project\FIGS.cydsn">
+      <Folder BuildType="STRICT" Path="C:\Users\ibrah\Desktop\PSoC Creator ProjectMain\FIGS.cydsn">
+        <Files Root="C:\Users\ibrah\Desktop\PSoC Creator ProjectMain\FIGS.cydsn">
           <File BuildType="BUILD" Toolchain="">main.c</File>
           <File BuildType="BUILD" Toolchain="">cyapicallbacks.h</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="C:\Users\tom94\Documents\Master in Embedded Systems\Master Courses\II2302 - Sensor Based Systems\Project\FIGS\PSoC Creator Project\FIGS.cydsn\Generated_Source\PSoC4">
-        <Files Root="C:\Users\tom94\Documents\Master in Embedded Systems\Master Courses\II2302 - Sensor Based Systems\Project\FIGS\PSoC Creator Project\FIGS.cydsn">
+      <Folder BuildType="STRICT" Path="C:\Users\ibrah\Desktop\PSoC Creator ProjectMain\FIGS.cydsn\Generated_Source\PSoC4">
+        <Files Root="C:\Users\ibrah\Desktop\PSoC Creator ProjectMain\FIGS.cydsn">
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cyfitter_cfg.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cyfitter_cfg.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cymetadata.c</File>
@@ -54,8 +54,95 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cyfitteriar.inc</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cyfitter.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cydisabledsheets.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cy_em_eeprom.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cy_em_eeprom.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_Control.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_Processing.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_Structure.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_Tuner.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_Filter.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_Sensing.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_Control.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_Filter.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_Processing.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_Sensing.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_Structure.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_Tuner.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_Configuration.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_INT.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_SensingCSD_LL.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_SensingCSD_LL.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_RegisterMap.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\BT.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\BT.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\BT_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\BT_INT.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\BT_BOOT.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_I2C.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_I2C_INT.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_I2C.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_I2C_BOOT.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_I2C_SLAVE.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_BOOT.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_PINS.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_I2C_PVT.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_PVT.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_BOOT.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_BOOT.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_PINS.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_PVT.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_EZI2C.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_EZI2C_INT.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_EZI2C.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_EZI2C_PVT.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_EZI2C_BOOT.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_BOOT.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\TIP_SENSOR_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\VIBRATION.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\VIBRATION.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\VIBRATION_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\VIBRATION_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\SERVOS_OUT.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\SERVOS_OUT.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\SERVOS_OUT_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\SERVOS_OUT_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\STATUS_LED.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\STATUS_LED.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\STATUS_LED_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\STATUS_LED_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_ISR.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_ISR.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\BT_IntClock.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\BT_IntClock.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_SCBCLK.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_SCBCLK.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_sda.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_sda.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_sda_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_sda_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_scl.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_scl.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_scl_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_scl_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_SCB_IRQ.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_SCB_IRQ.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_SCBCLK.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_SCBCLK.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_sda.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_sda.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_sda_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_sda_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_scl.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_scl.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_scl_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_scl_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_SCB_IRQ.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_SCB_IRQ.h</File>
           <File BuildType="BUILD" Toolchain="ARM GCC Generic">Generated_Source\PSoC4\cm0gcc.ld</File>
           <File BuildType="BUILD" Toolchain="ARM MDK Generic">Generated_Source\PSoC4\Cm0RealView.scat</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Cm0Start.c</File>
@@ -81,157 +168,96 @@
           <File BuildType="BUILD" Toolchain="ARM GCC Generic">Generated_Source\PSoC4\CyBootAsmGnu.s</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CyLFClk.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CyLFClk.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cy_em_eeprom.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cy_em_eeprom.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\project.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cycodeshareimport.ld</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cycodeshareexport.ld</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\cycodeshareimport.scat</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_Control.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_Processing.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_Structure.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_Tuner.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_Filter.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_Sensing.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_Control.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_Filter.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_Processing.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_Sensing.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_Structure.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_Tuner.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_Configuration.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_INT.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_SensingCSD_LL.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_SensingCSD_LL.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_RegisterMap.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_BOOT.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_PINS.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_PVT.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_EZI2C.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_EZI2C_INT.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_EZI2C.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_EZI2C_PVT.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_EZI2C_BOOT.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_BOOT.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_ISR.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\CapSense_ISR.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_SCBCLK.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_SCBCLK.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_sda.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_sda.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_sda_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_sda_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_scl.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_scl.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_scl_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_scl_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_SCB_IRQ.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tuner_SCB_IRQ.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\ADC_SAR_Seq_1.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\ADC_SAR_Seq_1.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\ADC_SAR_Seq_1_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\ADC_SAR_Seq_1_INT.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\STATUS_LED.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\STATUS_LED.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\STATUS_LED_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\STATUS_LED_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\ADC_SAR_Seq_1_IRQ.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\ADC_SAR_Seq_1_IRQ.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\ADC_SAR_Seq_1_intClock.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\ADC_SAR_Seq_1_intClock.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\BT.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\BT.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\BT_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\BT_INT.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\BT_BOOT.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_I2C.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_I2C_INT.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_I2C.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_I2C_BOOT.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_I2C_SLAVE.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_BOOT.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_PINS.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_I2C_PVT.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_PVT.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_BOOT.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\TIP_SENSOR_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\VIBRATION.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\VIBRATION.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\VIBRATION_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\VIBRATION_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\SERVOS_OUT.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\SERVOS_OUT.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\SERVOS_OUT_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\SERVOS_OUT_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\SERVOS_LED.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\SERVOS_LED.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\SERVOS_LED_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\SERVOS_LED_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\BT_IntClock.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\BT_IntClock.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_SCBCLK.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_SCBCLK.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_sda.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_sda.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_sda_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_sda_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_scl.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_scl.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_scl_aliases.h</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_scl_PM.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_SCB_IRQ.c</File>
-          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\IMU_SCB_IRQ.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Servo_PWM_3.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Servo_PWM_3.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Servo_PWM_3_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Servo_PWM_1.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Servo_PWM_1.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Servo_PWM_1_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Servo_PWM_2.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Servo_PWM_2.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Servo_PWM_2_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Servo_PWM_0.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Servo_PWM_0.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Servo_PWM_0_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Clock.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Clock.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tip_Sense_ADC.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tip_Sense_ADC.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tip_Sense_ADC_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tip_Sense_ADC_INT.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tip_Sense_ADC_IRQ.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tip_Sense_ADC_IRQ.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tip_Sense_ADC_intClock.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\Tip_Sense_ADC_intClock.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\SERVO_LED_0.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\SERVO_LED_0.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\SERVO_LED_0_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\SERVO_LED_0_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\SERVO_LED_1.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\SERVO_LED_1.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\SERVO_LED_1_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\SERVO_LED_1_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\SERVO_LED_2.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\SERVO_LED_2.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\SERVO_LED_2_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\SERVO_LED_2_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\SERVO_LED_3.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\SERVO_LED_3.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\SERVO_LED_3_aliases.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\SERVO_LED_3_PM.c</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="C:\Users\tom94\Documents\Master in Embedded Systems\Master Courses\II2302 - Sensor Based Systems\Project\FIGS\PSoC Creator Project\FIGS.cydsn\Export\ARM_GCC_Generic\CapSense_P4_v5_0">
-        <Files Root="C:\Users\tom94\Documents\Master in Embedded Systems\Master Courses\II2302 - Sensor Based Systems\Project\FIGS\PSoC Creator Project\FIGS.cydsn">
+      <Folder BuildType="STRICT" Path="C:\Users\ibrah\Desktop\PSoC Creator ProjectMain\FIGS.cydsn\Export\ARM_GCC_Generic\CapSense_P4_v5_0">
+        <Files Root="C:\Users\ibrah\Desktop\PSoC Creator ProjectMain\FIGS.cydsn">
           <File BuildType="BUILD" Toolchain="ARM GCC Generic">.\Export\ARM_GCC_Generic\CapSense_P4_v5_0\Capsense_P4Library_GCC.a</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="C:\Users\tom94\Documents\Master in Embedded Systems\Master Courses\II2302 - Sensor Based Systems\Project\FIGS\PSoC Creator Project\FIGS.cydsn\Export\ARM_MDK_Generic\CapSense_P4_v5_0">
-        <Files Root="C:\Users\tom94\Documents\Master in Embedded Systems\Master Courses\II2302 - Sensor Based Systems\Project\FIGS\PSoC Creator Project\FIGS.cydsn">
+      <Folder BuildType="STRICT" Path="C:\Users\ibrah\Desktop\PSoC Creator ProjectMain\FIGS.cydsn\Export\ARM_MDK_Generic\CapSense_P4_v5_0">
+        <Files Root="C:\Users\ibrah\Desktop\PSoC Creator ProjectMain\FIGS.cydsn">
           <File BuildType="BUILD" Toolchain="ARM MDK Generic">.\Export\ARM_MDK_Generic\CapSense_P4_v5_0\Capsense_P4Library_MDK.a</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="C:\Users\tom94\Documents\Master in Embedded Systems\Master Courses\II2302 - Sensor Based Systems\Project\FIGS\PSoC Creator Project\FIGS.cydsn\Export\ARM_IAR_Generic\CapSense_P4_v5_0">
-        <Files Root="C:\Users\tom94\Documents\Master in Embedded Systems\Master Courses\II2302 - Sensor Based Systems\Project\FIGS\PSoC Creator Project\FIGS.cydsn">
+      <Folder BuildType="STRICT" Path="C:\Users\ibrah\Desktop\PSoC Creator ProjectMain\FIGS.cydsn\Export\ARM_IAR_Generic\CapSense_P4_v5_0">
+        <Files Root="C:\Users\ibrah\Desktop\PSoC Creator ProjectMain\FIGS.cydsn">
           <File BuildType="BUILD" Toolchain="ARM IAR Generic">.\Export\ARM_IAR_Generic\CapSense_P4_v5_0\Capsense_P4Library_IAR.a</File>
         </Files>
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\codegentemp">
-        <Files Root="C:\Users\tom94\Documents\Master in Embedded Systems\Master Courses\II2302 - Sensor Based Systems\Project\FIGS\PSoC Creator Project\FIGS.cydsn" />
+        <Files Root="C:\Users\ibrah\Desktop\PSoC Creator ProjectMain\FIGS.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\ARM_GCC_441">
-        <Files Root="C:\Users\tom94\Documents\Master in Embedded Systems\Master Courses\II2302 - Sensor Based Systems\Project\FIGS\PSoC Creator Project\FIGS.cydsn" />
+        <Files Root="C:\Users\ibrah\Desktop\PSoC Creator ProjectMain\FIGS.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\ARM_GCC_473">
-        <Files Root="C:\Users\tom94\Documents\Master in Embedded Systems\Master Courses\II2302 - Sensor Based Systems\Project\FIGS\PSoC Creator Project\FIGS.cydsn" />
+        <Files Root="C:\Users\ibrah\Desktop\PSoC Creator ProjectMain\FIGS.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\DP8051_Keil_952">
-        <Files Root="C:\Users\tom94\Documents\Master in Embedded Systems\Master Courses\II2302 - Sensor Based Systems\Project\FIGS\PSoC Creator Project\FIGS.cydsn" />
+        <Files Root="C:\Users\ibrah\Desktop\PSoC Creator ProjectMain\FIGS.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\DP8051">
-        <Files Root="C:\Users\tom94\Documents\Master in Embedded Systems\Master Courses\II2302 - Sensor Based Systems\Project\FIGS\PSoC Creator Project\FIGS.cydsn" />
+        <Files Root="C:\Users\ibrah\Desktop\PSoC Creator ProjectMain\FIGS.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM0">
-        <Files Root="C:\Users\tom94\Documents\Master in Embedded Systems\Master Courses\II2302 - Sensor Based Systems\Project\FIGS\PSoC Creator Project\FIGS.cydsn" />
+        <Files Root="C:\Users\ibrah\Desktop\PSoC Creator ProjectMain\FIGS.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM0p">
-        <Files Root="C:\Users\tom94\Documents\Master in Embedded Systems\Master Courses\II2302 - Sensor Based Systems\Project\FIGS\PSoC Creator Project\FIGS.cydsn" />
+        <Files Root="C:\Users\ibrah\Desktop\PSoC Creator ProjectMain\FIGS.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM3">
-        <Files Root="C:\Users\tom94\Documents\Master in Embedded Systems\Master Courses\II2302 - Sensor Based Systems\Project\FIGS\PSoC Creator Project\FIGS.cydsn" />
+        <Files Root="C:\Users\ibrah\Desktop\PSoC Creator ProjectMain\FIGS.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM4">
-        <Files Root="C:\Users\tom94\Documents\Master in Embedded Systems\Master Courses\II2302 - Sensor Based Systems\Project\FIGS\PSoC Creator Project\FIGS.cydsn" />
+        <Files Root="C:\Users\ibrah\Desktop\PSoC Creator ProjectMain\FIGS.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM7">
-        <Files Root="C:\Users\tom94\Documents\Master in Embedded Systems\Master Courses\II2302 - Sensor Based Systems\Project\FIGS\PSoC Creator Project\FIGS.cydsn" />
+        <Files Root="C:\Users\ibrah\Desktop\PSoC Creator ProjectMain\FIGS.cydsn" />
       </Folder>
     </Folders>
   </Project>
